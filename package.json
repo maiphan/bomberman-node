@@ -13,8 +13,8 @@
   ],
   "author": "Ikayzo",
   "license": "BSD",
-  "devDependencies": {
-    "mocha": "~1.9.0",
-    "should": "~1.2.2"
+  "devDependencies": {},
+  "dependencies": {
+    "underscore": "~1.4.4"
   }
 }
