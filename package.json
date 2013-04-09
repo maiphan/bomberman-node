@@ -1,5 +1,5 @@
 {
-  "name": "bomberman-js",
+  "name": "bomberman-node",
   "version": "0.0.0",
   "description": "Client for interacting with Bomberman HTTP API. For more information visit http://bomberman.ikayzo.com/",
   "main": "index.js",
@@ -13,7 +13,10 @@
   ],
   "author": "Ikayzo",
   "license": "BSD",
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "~1.9.0",
+    "chai": "~1.5.0"
+  },
   "dependencies": {
     "underscore": "~1.4.4"
   }
