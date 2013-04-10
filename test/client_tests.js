@@ -52,5 +52,14 @@ describe("Client", function() {
             var path = this.client._makePath("testPath", "ja");
             path.should.equal("/ja/v" + this.client.apiVersion + "/testPath");
         });
+
+        it("should throw an error if an incorrect language is provided", function() {
+            // Wrap in a function so that we can test it.
+            var c = this.client;
+            var testFunc = function() {
+                return c._makePath("testPath", "foo");
+            };
+            testFunc.should.throws(Error, /Unsupported/);
+        });
     });
 });
