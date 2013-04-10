@@ -1,5 +1,7 @@
 # Bomberman
 
+[![Build Status](https://travis-ci.org/ikayzo/bomberman-node.png)](https://travis-ci.org/ikayzo/bomberman-node)
+
 This is a Node.js package for the Bomberman HTTP API.
 
 [Bomberman](http://addons.heroku.com/bomberman): shelter from profanity bombing, is an [add-on](http://addons.heroku.com) for Heroku
