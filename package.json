@@ -1,12 +1,12 @@
 {
   "name": "bomberman-node",
-  "version": "0.0.0",
+  "version": "0.5.0",
   "description": "Client for interacting with Bomberman HTTP API. For more information visit http://bomberman.ikayzo.com/",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha test/*.js -R spec"
   },
-  "repository": "",
+  "repository": "https://github.com/ikayzo/bomberman-node",
   "keywords": [
     "bomberman",
     "profanity"

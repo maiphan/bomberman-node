@@ -50,7 +50,7 @@ any) are obfuscated, use `.censor(corpus, [replacement_text, [language,]] callba
 
 ```js
 client.censor("What the hell", "CENSORED", function(response) {
-    // response is "What the CENSORED
+    // response is "What the CENSORED"
 });
 ```
 
