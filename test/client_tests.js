@@ -22,13 +22,11 @@ describe("Client", function() {
         it("should allow the user to specify defaults", function() {
             var testDefaults = {
                 apiVersion: 2,
-                useHttps: false,
                 hostName: "foobar.herokuapp.com"
             };
 
             var client = Client(this.testKey, testDefaults);
             var res = client.apiVersion.should.equal(testDefaults.apiVersion);
-            res = client.useHttps.should.equal(testDefaults.useHttps);
             res = client.hostName.should.equal(testDefaults.hostName);
         });
     });

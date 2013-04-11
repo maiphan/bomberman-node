@@ -1,6 +1,6 @@
 {
   "name": "bomberman-node",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Client for interacting with Bomberman HTTP API. For more information visit http://bomberman.ikayzo.com/",
   "main": "index.js",
   "scripts": {
