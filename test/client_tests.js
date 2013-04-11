@@ -15,7 +15,6 @@ describe("Client", function() {
         it("should have default values", function() {
             var client = Client(this.testKey);
             var res = client.apiVersion.should.be.ok;
-            res = client.useHttps.should.be.ok;
             res = client.hostName.should.be.ok;
         });
 
