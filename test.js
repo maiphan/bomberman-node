@@ -44,6 +44,6 @@ if (require.main === module) {
     });
 
     badClient.isProfane(profaneStr, function(response) {
-        console.log("Bad client received error: " + response.error);
+        console.log("Bad client received error: " + response.errorStatus);
     });
 }
