@@ -40,17 +40,17 @@ describe("Client", function() {
 
         it("should create a default path if no language is provided", function() {
             var path = this.client._makePath("testPath");
-            path.should.equal("/v" + this.client.apiVersion + "/testPath");
+            path.should.equal("/api/v" + this.client.apiVersion + "/testPath");
         });
 
         it("should not insert a slash if one is prepended", function() {
             var path = this.client._makePath("/testPath");
-            path.should.equal("/v" + this.client.apiVersion + "/testPath");
+            path.should.equal("/api/v" + this.client.apiVersion + "/testPath");
         });
 
         it("should create a ja path if the Japanese language code is provided", function() {
             var path = this.client._makePath("testPath", "ja");
-            path.should.equal("/ja/v" + this.client.apiVersion + "/testPath");
+            path.should.equal("/api/ja/v" + this.client.apiVersion + "/testPath");
         });
 
         it("should throw an error if an incorrect language is provided", function() {
