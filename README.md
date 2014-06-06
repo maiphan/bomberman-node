@@ -16,13 +16,13 @@ application please see our [add-on documentation page](http://bomberman.ikayzo.c
 Install bomberman-node via npm.
 
 ```term
-$ npm install bomberman-node
+$ npm install bomberman
 ```
 
 Once installed, create an instance of the client in your Node.js code.
 
 ```js
-var Client = require('bomberman-node');
+var Client = require('bomberman');
 
 var client = Client("your api key");
 ```
