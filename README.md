@@ -19,6 +19,8 @@ Install bomberman-node via npm.
 $ npm install bomberman
 ```
 
+If you are using the Bomberman Heroku addon, please uncomment line 11 of ```lib/client.js```.
+
 Once installed, create an instance of the client in your Node.js code.
 
 ```js
